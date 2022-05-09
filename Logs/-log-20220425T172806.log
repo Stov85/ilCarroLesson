@@ -1,0 +1,42 @@
+17:28:08.543 INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+17:28:10.112 INFO  tests.TestsBase - Name of test--->typePeriodInPast
+17:28:10.115 INFO  manager.MyListener - Start find element --->By.id: city
+17:28:10.145 INFO  manager.MyListener - The element with locator ---> By.id: city ---> was found
+17:28:10.224 INFO  manager.MyListener - Start find element --->By.id: dates
+17:28:10.245 INFO  manager.MyListener - The element with locator ---> By.id: dates ---> was found
+17:28:12.410 INFO  manager.MyListener - Start find element --->By.id: city
+17:28:12.431 INFO  manager.MyListener - The element with locator ---> By.id: city ---> was found
+17:28:13.540 INFO  manager.MyListener - We have a throwable -->element click intercepted: Element <input _ngcontent-enh-c72="" formcontrolname="city" id="city" placeholder="" type="text" class="ng-pristine ng-invalid pac-target-input ng-touched" autocomplete="off"> is not clickable at point (267, 289). Other element would receive the click: <div class="mat-calendar-body-cell-content">...</div>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-889P2QA', ip: '192.168.1.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58026}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 138a9a2186f4e4162990d585b8490ddb
+17:28:13.541 INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input _ngcontent-enh-c72="" formcontrolname="city" id="city" placeholder="" type="text" class="ng-pristine ng-invalid pac-target-input ng-touched" autocomplete="off"> is not clickable at point (267, 289). Other element would receive the click: <div class="mat-calendar-body-cell-content">...</div>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-889P2QA', ip: '192.168.1.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58026}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 138a9a2186f4e4162990d585b8490ddb
+17:28:13.542 INFO  manager.MyListener - This is number of your screen-->
+17:28:13.546 INFO  manager.MyListener - This is number of your screen-->src/test/screenshots/1693.png
+17:28:13.879 INFO  manager.MyListener - Start find element --->By.cssSelector: a[href$='/search']
+17:28:13.900 INFO  manager.MyListener - The element with locator ---> By.cssSelector: a[href$='/search'] ---> was found
+17:28:15.000 INFO  manager.MyListener - We have a throwable -->element click intercepted: Element <a _ngcontent-enh-c25="" class="navigation-link" id="0" href="/search">...</a> is not clickable at point (576, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-889P2QA', ip: '192.168.1.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58026}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 138a9a2186f4e4162990d585b8490ddb
+17:28:15.001 INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-enh-c25="" class="navigation-link" id="0" href="/search">...</a> is not clickable at point (576, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-889P2QA', ip: '192.168.1.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58026}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 138a9a2186f4e4162990d585b8490ddb
+17:28:15.002 INFO  manager.MyListener - This is number of your screen-->
+17:28:15.002 INFO  manager.MyListener - This is number of your screen-->src/test/screenshots/1695.png

@@ -1,0 +1,3 @@
+12:38:21.725 INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+12:38:23.310 INFO  tests.TestsBase - Name of test--->typePeriodInPast
+12:38:25.329 INFO  manager.MyListener - Start find element --->By.id: city

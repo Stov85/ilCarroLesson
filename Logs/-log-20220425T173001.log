@@ -1,0 +1,42 @@
+17:30:02.912 INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+17:30:04.415 INFO  tests.TestsBase - Name of test--->typePeriodInPast
+17:30:04.418 INFO  manager.MyListener - Start find element --->By.id: city
+17:30:04.448 INFO  manager.MyListener - The element with locator ---> By.id: city ---> was found
+17:30:04.537 INFO  manager.MyListener - Start find element --->By.id: dates
+17:30:04.552 INFO  manager.MyListener - The element with locator ---> By.id: dates ---> was found
+17:30:06.714 INFO  manager.MyListener - Start find element --->By.id: dates
+17:30:06.741 INFO  manager.MyListener - The element with locator ---> By.id: dates ---> was found
+17:30:07.811 INFO  manager.MyListener - We have a throwable -->element click intercepted: Element <input _ngcontent-nkh-c72="" formcontrolname="dates" id="dates" class="ng-pristine ng-invalid ng-touched" aria-haspopup="dialog" min="2022-04-25" max="2023-04-25" aria-owns="sat-datepicker-0"> is not clickable at point (267, 382). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-889P2QA', ip: '192.168.1.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56486}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc7a842c3c05f6c73a5ae44e582dc595
+17:30:07.824 INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input _ngcontent-nkh-c72="" formcontrolname="dates" id="dates" class="ng-pristine ng-invalid ng-touched" aria-haspopup="dialog" min="2022-04-25" max="2023-04-25" aria-owns="sat-datepicker-0"> is not clickable at point (267, 382). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-889P2QA', ip: '192.168.1.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56486}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc7a842c3c05f6c73a5ae44e582dc595
+17:30:07.824 INFO  manager.MyListener - This is number of your screen-->
+17:30:07.827 INFO  manager.MyListener - This is number of your screen-->src/test/screenshots/1807.png
+17:30:08.164 INFO  manager.MyListener - Start find element --->By.cssSelector: a[href$='/search']
+17:30:08.189 INFO  manager.MyListener - The element with locator ---> By.cssSelector: a[href$='/search'] ---> was found
+17:30:09.241 INFO  manager.MyListener - We have a throwable -->element click intercepted: Element <a _ngcontent-nkh-c25="" class="navigation-link" id="0" href="/search">...</a> is not clickable at point (576, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-889P2QA', ip: '192.168.1.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56486}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc7a842c3c05f6c73a5ae44e582dc595
+17:30:09.242 INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-nkh-c25="" class="navigation-link" id="0" href="/search">...</a> is not clickable at point (576, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-889P2QA', ip: '192.168.1.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56486}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc7a842c3c05f6c73a5ae44e582dc595
+17:30:09.243 INFO  manager.MyListener - This is number of your screen-->
+17:30:09.243 INFO  manager.MyListener - This is number of your screen-->src/test/screenshots/1809.png

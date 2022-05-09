@@ -1,0 +1,14 @@
+17:11:40.783 INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+17:11:42.389 INFO  tests.TestsBase - Name of test--->typePeriodInPast
+17:11:42.393 INFO  manager.MyListener - Start find element --->By.id: city
+17:11:42.417 INFO  manager.MyListener - The element with locator ---> By.id: city ---> was found
+17:11:43.089 INFO  manager.MyListener - Start find element --->By.cssSelector: .pac-item
+17:11:43.115 INFO  manager.MyListener - The element with locator ---> By.cssSelector: .pac-item ---> was found
+17:11:43.658 INFO  manager.MyListener - Start find element --->By.id: dates
+17:11:43.683 INFO  manager.MyListener - The element with locator ---> By.id: dates ---> was found
+17:11:43.902 INFO  manager.MyListener - Start find element --->By.cssSelector: .cdk-overlay-container
+17:11:43.928 INFO  manager.MyListener - The element with locator ---> By.cssSelector: .cdk-overlay-container ---> was found
+17:11:47.985 INFO  manager.MyListener - Start find element --->By.cssSelector: [type='submit']
+17:11:48.010 INFO  manager.MyListener - The element with locator ---> By.cssSelector: [type='submit'] ---> was found
+17:11:48.021 INFO  manager.MyListener - Start find element --->By.cssSelector: a[href$='/search']
+17:11:48.041 INFO  manager.MyListener - The element with locator ---> By.cssSelector: a[href$='/search'] ---> was found

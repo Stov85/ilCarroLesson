@@ -1,0 +1,71 @@
+09:35:15.474 INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+09:35:17.087 INFO  tests.TestsBase - Name of test--->searchPeriodAnyFuture
+09:35:17.090 INFO  manager.MyListener - Start find element --->By.id: city
+09:35:17.116 INFO  manager.MyListener - The element with locator ---> By.id: city ---> was found
+09:35:17.802 INFO  manager.MyListener - Start find element --->By.cssSelector: .pac-item
+09:35:17.832 INFO  manager.MyListener - The element with locator ---> By.cssSelector: .pac-item ---> was found
+09:35:18.401 INFO  manager.MyListener - Start find element --->By.id: dates
+09:35:18.418 INFO  manager.MyListener - The element with locator ---> By.id: dates ---> was found
+09:35:18.516 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 30 ']
+09:35:18.541 INFO  manager.MyListener - The element with locator ---> By.xpath: //div[text()=' 30 '] ---> was found
+09:35:18.604 INFO  manager.MyListener - Start find element --->By.cssSelector: button[aria-label='Next month']
+09:35:18.619 INFO  manager.MyListener - The element with locator ---> By.cssSelector: button[aria-label='Next month'] ---> was found
+09:35:18.682 INFO  manager.MyListener - Start find element --->By.cssSelector: button[aria-label='Next month']
+09:35:18.696 INFO  manager.MyListener - The element with locator ---> By.cssSelector: button[aria-label='Next month'] ---> was found
+09:35:18.743 INFO  manager.MyListener - Start find element --->By.cssSelector: button[aria-label='Next month']
+09:35:18.759 INFO  manager.MyListener - The element with locator ---> By.cssSelector: button[aria-label='Next month'] ---> was found
+09:35:18.799 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 25 ']
+09:35:18.828 INFO  manager.MyListener - The element with locator ---> By.xpath: //div[text()=' 25 '] ---> was found
+09:35:18.898 INFO  manager.MyListener - Start find element --->By.cssSelector: [type='submit']
+09:35:18.918 INFO  manager.MyListener - The element with locator ---> By.cssSelector: [type='submit'] ---> was found
+09:35:19.008 INFO  manager.MyListener - Start find element --->By.cssSelector: .search-results
+09:35:19.036 INFO  manager.MyListener - The element with locator ---> By.cssSelector: .search-results ---> was found
+09:35:19.040 INFO  manager.MyListener - Start find element --->By.cssSelector: .header a[href='/']
+09:35:19.107 INFO  manager.MyListener - The element with locator ---> By.cssSelector: .header a[href='/'] ---> was found
+09:35:19.440 INFO  tests.TestsBase - Name of test--->searchPeriodCurrentMonth
+09:35:19.441 INFO  manager.MyListener - Start find element --->By.id: city
+09:35:19.461 INFO  manager.MyListener - The element with locator ---> By.id: city ---> was found
+09:35:20.137 INFO  manager.MyListener - Start find element --->By.cssSelector: .pac-item
+09:35:20.163 INFO  manager.MyListener - The element with locator ---> By.cssSelector: .pac-item ---> was found
+09:35:20.709 INFO  manager.MyListener - Start find element --->By.id: dates
+09:35:20.734 INFO  manager.MyListener - The element with locator ---> By.id: dates ---> was found
+09:35:20.799 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 10 ']
+09:35:20.829 INFO  manager.MyListener - The element with locator ---> By.xpath: //div[text()=' 10 '] ---> was found
+09:35:20.870 INFO  manager.MyListener - Start find element --->By.xpath: //div[text()=' 15 ']
+09:35:20.891 INFO  manager.MyListener - The element with locator ---> By.xpath: //div[text()=' 15 '] ---> was found
+09:35:25.934 INFO  manager.MyListener - Start find element --->By.cssSelector: [type='submit']
+09:35:25.957 INFO  manager.MyListener - The element with locator ---> By.cssSelector: [type='submit'] ---> was found
+09:35:27.077 INFO  manager.MyListener - We have a throwable -->element click intercepted: Element <button _ngcontent-jjh-c72="" type="submit">...</button> is not clickable at point (195, 412). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=100.0.4896.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-889P2QA', ip: '192.168.1.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63809}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b0af5e59eda873f96735679ea2898328
+09:35:27.078 INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-jjh-c72="" type="submit">...</button> is not clickable at point (195, 412). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=100.0.4896.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-889P2QA', ip: '192.168.1.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63809}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b0af5e59eda873f96735679ea2898328
+09:35:27.080 INFO  manager.MyListener - This is number of your screen-->
+09:35:27.085 INFO  manager.MyListener - This is number of your screen-->src/test/screenshots/2127.png
+09:35:27.454 INFO  manager.MyListener - Start find element --->By.cssSelector: .header a[href='/']
+09:35:27.478 INFO  manager.MyListener - The element with locator ---> By.cssSelector: .header a[href='/'] ---> was found
+09:35:28.581 INFO  manager.MyListener - We have a throwable -->element click intercepted: Element <a _ngcontent-jjh-c25="" href="/" class="logo">...</a> is not clickable at point (228, 34). Other element would receive the click: <button mat-button="" type="button" cdkarialive="polite" class="mat-focus-indicator mat-calendar-period-button mat-button mat-button-base" aria-label="Choose month and year">...</button>
+  (Session info: chrome=100.0.4896.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-889P2QA', ip: '192.168.1.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63809}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b0af5e59eda873f96735679ea2898328
+09:35:28.582 INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-jjh-c25="" href="/" class="logo">...</a> is not clickable at point (228, 34). Other element would receive the click: <button mat-button="" type="button" cdkarialive="polite" class="mat-focus-indicator mat-calendar-period-button mat-button mat-button-base" aria-label="Choose month and year">...</button>
+  (Session info: chrome=100.0.4896.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-889P2QA', ip: '192.168.1.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63809}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b0af5e59eda873f96735679ea2898328
+09:35:28.582 INFO  manager.MyListener - This is number of your screen-->
+09:35:28.583 INFO  manager.MyListener - This is number of your screen-->src/test/screenshots/2128.png
